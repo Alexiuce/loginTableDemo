@@ -1,0 +1,16 @@
+PODS:
+  - SwiftLCS (1.1.1):
+    - SwiftLCS/Foundation (= 1.1.1)
+  - SwiftLCS/Core (1.1.1)
+  - SwiftLCS/Foundation (1.1.1):
+    - SwiftLCS/Core
+
+DEPENDENCIES:
+  - SwiftLCS
+
+SPEC CHECKSUMS:
+  SwiftLCS: fd7c629d7fb932be051c50e843c8a8a08f24a780
+
+PODFILE CHECKSUM: d640fd931adba3c19cfa2bb1f42afc06b54c20e8
+
+COCOAPODS: 1.2.1

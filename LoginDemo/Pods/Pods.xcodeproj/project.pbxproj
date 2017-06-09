@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2072F6E853AC3DAFF531DEFA9C204C /* Pods-LoginDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF794E483DB5D4D09E8A35FBAB4EB60 /* Pods-LoginDemo-dummy.m */; };
+		2DB29943B8CFDA82689CC426E176F2A6 /* SwiftLCS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF27997D00CBDDB0B852AC179F47376 /* SwiftLCS-dummy.m */; };
+		550F6EAD4F2BCE50B536ED4EAA0CB6D7 /* SwiftLCS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0DF1D663EBAC8FDFCD9F8C550A2081B /* SwiftLCS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65CAE74E3B79B5FB5F1CD4C4B9C4D6E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7E276DE43B745F7E1D8DA8275B146C98 /* Pods-LoginDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8946695627259CA5E5060F74439BB2EA /* Pods-LoginDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		976DA4A6E5F72DD2114683FA2067A959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9B481676A305501CF1B7C699A37EB5DE /* SwiftLCS+Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC4DC6C5C516C276B2E0178F8DF89D1 /* SwiftLCS+Foundation.swift */; };
+		F47288170148B558202954FF01B48026 /* SwiftLCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BDFA6F24771F0D04BF5D6FEA2FF677 /* SwiftLCS.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82E1EA9BC6F34DAFB8F687D5BC6F6CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAFD9DE4C14D89FD280620819DBF8F4C;
+			remoteInfo = SwiftLCS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BA79D1D49C0B1BD791165684FFDA187 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		204E94FF1A5627446FB9E2361EBA81C2 /* Pods-LoginDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		2874BD513F1EC32FFF94278773F683F0 /* Pods-LoginDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginDemo-frameworks.sh"; sourceTree = "<group>"; };
+		42E4BD697FBD56AA99F407545ADDAC6F /* Pods-LoginDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LoginDemo.modulemap"; sourceTree = "<group>"; };
+		447DE38213D0A6B7EF5CB520FA89B5C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BDFA6F24771F0D04BF5D6FEA2FF677 /* SwiftLCS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftLCS.swift; path = SwiftLCS/SwiftLCS.swift; sourceTree = "<group>"; };
+		488249EB895AFF9750C0539D70B36C91 /* Pods-LoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginDemo.release.xcconfig"; sourceTree = "<group>"; };
+		580088C632C94DBEFFA5DD5482A1CEAF /* SwiftLCS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLCS.xcconfig; sourceTree = "<group>"; };
+		5AF794E483DB5D4D09E8A35FBAB4EB60 /* Pods-LoginDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginDemo-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7928642FDE6678EFDE8B50DFFE65BC82 /* SwiftLCS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftLCS.framework; path = SwiftLCS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8946695627259CA5E5060F74439BB2EA /* Pods-LoginDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LoginDemo-umbrella.h"; sourceTree = "<group>"; };
+		8CC4DC6C5C516C276B2E0178F8DF89D1 /* SwiftLCS+Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwiftLCS+Foundation.swift"; path = "SwiftLCS/SwiftLCS+Foundation.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0DF1D663EBAC8FDFCD9F8C550A2081B /* SwiftLCS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLCS-umbrella.h"; sourceTree = "<group>"; };
+		B9EDEE8570235F23CA764ABAE906AE6E /* Pods-LoginDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1D3F2B2A1C23AC212C42C31F692E221 /* Pods-LoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C816A4EDD9621A6AC0D7FFAEAA0E9134 /* Pods_LoginDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LoginDemo.framework; path = "Pods-LoginDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30D4C7C1BDFA6C016D629A426CC137D /* Pods-LoginDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginDemo-resources.sh"; sourceTree = "<group>"; };
+		D539155801020422E5A5B2A8D320C6FA /* SwiftLCS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftLCS.modulemap; sourceTree = "<group>"; };
+		D6152289D264907EB20144502B9B8DFE /* SwiftLCS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftLCS-prefix.pch"; sourceTree = "<group>"; };
+		DBF27997D00CBDDB0B852AC179F47376 /* SwiftLCS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftLCS-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0847A47025362A0DC56B24C82BEC9054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976DA4A6E5F72DD2114683FA2067A959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A45A422F9A4D00F5CF840CFACEB637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CAE74E3B79B5FB5F1CD4C4B9C4D6E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2657C556FF2549ED4DE9ADBA7482B53F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E69A11F70CBBEB5900BF5D38E955A5 /* SwiftLCS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E5FFDFFC89B83A6EA06EDC930F44B0B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				47BDFA6F24771F0D04BF5D6FEA2FF677 /* SwiftLCS.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5981AC1197E5F2424AA4902DE1CC95DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EF4C431AE6C6DCED31CB5EF118AFBD8 /* Pods-LoginDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65E69A11F70CBBEB5900BF5D38E955A5 /* SwiftLCS */ = {
+			isa = PBXGroup;
+			children = (
+				2E5FFDFFC89B83A6EA06EDC930F44B0B /* Core */,
+				B2581C4877A73FBBF005FED0033DF65A /* Foundation */,
+				A252BD6D48A9F2218BD608E4CD3014C4 /* Support Files */,
+			);
+			name = SwiftLCS;
+			path = SwiftLCS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2657C556FF2549ED4DE9ADBA7482B53F /* Pods */,
+				A21A5DBD47690B046F3884B3FE8E1F0A /* Products */,
+				5981AC1197E5F2424AA4902DE1CC95DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EF4C431AE6C6DCED31CB5EF118AFBD8 /* Pods-LoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				447DE38213D0A6B7EF5CB520FA89B5C3 /* Info.plist */,
+				42E4BD697FBD56AA99F407545ADDAC6F /* Pods-LoginDemo.modulemap */,
+				B9EDEE8570235F23CA764ABAE906AE6E /* Pods-LoginDemo-acknowledgements.markdown */,
+				204E94FF1A5627446FB9E2361EBA81C2 /* Pods-LoginDemo-acknowledgements.plist */,
+				5AF794E483DB5D4D09E8A35FBAB4EB60 /* Pods-LoginDemo-dummy.m */,
+				2874BD513F1EC32FFF94278773F683F0 /* Pods-LoginDemo-frameworks.sh */,
+				D30D4C7C1BDFA6C016D629A426CC137D /* Pods-LoginDemo-resources.sh */,
+				8946695627259CA5E5060F74439BB2EA /* Pods-LoginDemo-umbrella.h */,
+				C1D3F2B2A1C23AC212C42C31F692E221 /* Pods-LoginDemo.debug.xcconfig */,
+				488249EB895AFF9750C0539D70B36C91 /* Pods-LoginDemo.release.xcconfig */,
+			);
+			name = "Pods-LoginDemo";
+			path = "Target Support Files/Pods-LoginDemo";
+			sourceTree = "<group>";
+		};
+		A21A5DBD47690B046F3884B3FE8E1F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C816A4EDD9621A6AC0D7FFAEAA0E9134 /* Pods_LoginDemo.framework */,
+				7928642FDE6678EFDE8B50DFFE65BC82 /* SwiftLCS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A252BD6D48A9F2218BD608E4CD3014C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BA79D1D49C0B1BD791165684FFDA187 /* Info.plist */,
+				D539155801020422E5A5B2A8D320C6FA /* SwiftLCS.modulemap */,
+				580088C632C94DBEFFA5DD5482A1CEAF /* SwiftLCS.xcconfig */,
+				DBF27997D00CBDDB0B852AC179F47376 /* SwiftLCS-dummy.m */,
+				D6152289D264907EB20144502B9B8DFE /* SwiftLCS-prefix.pch */,
+				A0DF1D663EBAC8FDFCD9F8C550A2081B /* SwiftLCS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLCS";
+			sourceTree = "<group>";
+		};
+		B2581C4877A73FBBF005FED0033DF65A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8CC4DC6C5C516C276B2E0178F8DF89D1 /* SwiftLCS+Foundation.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09F047786F65C1035A2A28A0E58919BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E276DE43B745F7E1D8DA8275B146C98 /* Pods-LoginDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC473AF9D4829706ED34AF7B0B6D364 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550F6EAD4F2BCE50B536ED4EAA0CB6D7 /* SwiftLCS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DAFD9DE4C14D89FD280620819DBF8F4C /* SwiftLCS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4325437F9CF5F34355378B654580C0C /* Build configuration list for PBXNativeTarget "SwiftLCS" */;
+			buildPhases = (
+				405B3561723160E403DFD1FEF358E44F /* Sources */,
+				0847A47025362A0DC56B24C82BEC9054 /* Frameworks */,
+				8CC473AF9D4829706ED34AF7B0B6D364 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLCS;
+			productName = SwiftLCS;
+			productReference = 7928642FDE6678EFDE8B50DFFE65BC82 /* SwiftLCS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE0282D1D3E7E6A2A5D40A636B5B9044 /* Pods-LoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19EB7324C1346A8EB429EEBA704AF225 /* Build configuration list for PBXNativeTarget "Pods-LoginDemo" */;
+			buildPhases = (
+				6CD7375BA4CEDAB0598FB4CA1F1EF95F /* Sources */,
+				A4A45A422F9A4D00F5CF840CFACEB637 /* Frameworks */,
+				09F047786F65C1035A2A28A0E58919BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F593D4969172B442D4383E1A592DBD /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginDemo";
+			productName = "Pods-LoginDemo";
+			productReference = C816A4EDD9621A6AC0D7FFAEAA0E9134 /* Pods_LoginDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A21A5DBD47690B046F3884B3FE8E1F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE0282D1D3E7E6A2A5D40A636B5B9044 /* Pods-LoginDemo */,
+				DAFD9DE4C14D89FD280620819DBF8F4C /* SwiftLCS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		405B3561723160E403DFD1FEF358E44F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B481676A305501CF1B7C699A37EB5DE /* SwiftLCS+Foundation.swift in Sources */,
+				2DB29943B8CFDA82689CC426E176F2A6 /* SwiftLCS-dummy.m in Sources */,
+				F47288170148B558202954FF01B48026 /* SwiftLCS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CD7375BA4CEDAB0598FB4CA1F1EF95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2072F6E853AC3DAFF531DEFA9C204C /* Pods-LoginDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F593D4969172B442D4383E1A592DBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLCS;
+			target = DAFD9DE4C14D89FD280620819DBF8F4C /* SwiftLCS */;
+			targetProxy = 82E1EA9BC6F34DAFB8F687D5BC6F6CD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BA7C388736D879D621E1A81BCC9551C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D3F2B2A1C23AC212C42C31F692E221 /* Pods-LoginDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginDemo/Pods-LoginDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoginDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5161786F91BE5135B06FC5D06880851E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580088C632C94DBEFFA5DD5482A1CEAF /* SwiftLCS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLCS/SwiftLCS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLCS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftLCS/SwiftLCS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftLCS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DCF18DCD3C11D8F0826292825EB3075 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 580088C632C94DBEFFA5DD5482A1CEAF /* SwiftLCS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftLCS/SwiftLCS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftLCS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftLCS/SwiftLCS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftLCS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACFE2EA3996AA0AC692D1788B359D648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488249EB895AFF9750C0539D70B36C91 /* Pods-LoginDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LoginDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LoginDemo/Pods-LoginDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LoginDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19EB7324C1346A8EB429EEBA704AF225 /* Build configuration list for PBXNativeTarget "Pods-LoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA7C388736D879D621E1A81BCC9551C /* Debug */,
+				ACFE2EA3996AA0AC692D1788B359D648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4325437F9CF5F34355378B654580C0C /* Build configuration list for PBXNativeTarget "SwiftLCS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DCF18DCD3C11D8F0826292825EB3075 /* Debug */,
+				5161786F91BE5135B06FC5D06880851E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
